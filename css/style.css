@@ -1,19 +1,53 @@
+﻿/* コンテンツのすべて --------------------------------------- */
+.contents{
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+/* ヘッダー ------------------------------------------------ */
 header{
-     background-color: #ffb7f7;
-     width: 1000px;
-     margin-right: auto;
-     margin-left: auto;
-     text-align: center;
+  background: linear-gradient(#fbf,#f8f);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+header ul li{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+header ul li a{
+  color: white;
+}
+
+header ul li a:hover{
+  color: rgb(180, 59, 164);
+}
+
+header h1{
+  color: rgb(180, 59, 164);
 }
 
 .titleheader{
-    position: relative;/*相対配置*/
+  position: relative;/*相対配置*/
 }
 
 .titleheader h1 {
   position: absolute;/*絶対配置*/
-  color:#cc33cc;
   top: 150px;
-  left: 220px;
+  left: 210px;
   font-size: 2em;
+  }
+  
+  .titleheader h1 a {
+    color : rgb(180, 59, 164);
+    text-decoration: none;
+  }
+
+.titleheader img{
+  border-style: dashed;
+  border-color: white;
   }
