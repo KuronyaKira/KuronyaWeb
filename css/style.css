@@ -1,0 +1,19 @@
+header{
+     background-color: #ffb7f7;
+     width: 1000px;
+     margin-right: auto;
+     margin-left: auto;
+     text-align: center;
+}
+
+.titleheader{
+    position: relative;/*相対配置*/
+}
+
+.titleheader h1 {
+  position: absolute;/*絶対配置*/
+  color:#cc33cc;
+  top: 150px;
+  left: 220px;
+  font-size: 2em;
+  }
