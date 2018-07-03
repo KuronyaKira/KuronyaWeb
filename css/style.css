@@ -56,6 +56,7 @@ header h1{
 
   /* メイン ------------------------------------------------ */
 main{
+    margin-top: 25px;
     overflow: hidden;
 }
 
@@ -71,3 +72,17 @@ h2 {
   font-size :1.2em;
 }
 
+
+  /*  画面の横幅が999px以下の場合に適用 --------------------- */
+  @media screen and (max-width : 999px){
+  .contents{
+    width: auto;
+  }
+
+  .titleheader h1 {
+    position: absolute;/*絶対配置*/
+    top: 150px;
+    left: 5%;
+    font-size: 2em;
+    }
+}
