@@ -8,7 +8,7 @@
 
 /* ヘッダー ------------------------------------------------ */
 header{
-  background: linear-gradient(#fbf,#f8f);
+  background: linear-gradient(#ffa7dd,#d793ff);
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -21,14 +21,16 @@ header ul li{
 
 header ul li a{
   color: white;
+  text-decoration: none;
 }
 
 header ul li a:hover{
-  color: rgb(180, 59, 164);
+  color: #a1d9ff;
+  text-decoration: underline;
 }
 
 header h1{
-  color: rgb(180, 59, 164);
+  color:white;
 }
 
 .titleheader{
@@ -42,8 +44,8 @@ header h1{
   font-size: 2em;
   }
   
-  .titleheader h1 a {
-    color : rgb(180, 59, 164);
+.titleheader h1 a {
+    color :#b751bb;
     text-decoration: none;
   }
 
@@ -51,3 +53,21 @@ header h1{
   border-style: dashed;
   border-color: white;
   }
+
+  /* メイン ------------------------------------------------ */
+main{
+    overflow: hidden;
+}
+
+.box{
+    width: 400px;
+    float :left;
+    text-align: left;
+    margin: 0 50px;
+ }
+
+h2 {
+  color :#b751bb;
+  font-size :1.2em;
+}
+
