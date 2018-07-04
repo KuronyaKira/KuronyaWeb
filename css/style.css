@@ -34,55 +34,76 @@ header h1{
 }
 
 .titleheader{
-  position: relative;/*相対配置*/
+  margin: auto;
+  padding: auto;
+  width: 70%;
+  border: 3px dashed #fff; 
+  background-color   : #ffc2ff;
+  background-image   : radial-gradient(#ffffff 19%, transparent 21%),
+                       radial-gradient(#ffffff 19%, transparent 21%);
+  background-position: 0 0, 30px 30px;
+  background-size    : 60px 60px;
+  overflow: hidden;
 }
 
-.titleheader h1 {
-  position: absolute;/*絶対配置*/
-  top: 150px;
-  left: 210px;
-  font-size: 2em;
-  }
-  
-.titleheader h1 a {
+.sitetitle{
+  float: left;
+  padding:25px;
+}
+
+.titleimage{
+  float: right;
+  padding:25px;
+}
+
+.titleimage img{
+  width: 250px;
+  height: 250px;
+}
+
+.sitetitle h1 a {
     color :#b751bb;
     text-decoration: none;
-  }
+ }
 
-.titleheader img{
-  border-style: dashed;
-  border-color: white;
-  }
 
   /* メイン ------------------------------------------------ */
 main{
-    margin-top: 25px;
+    margin: 25px auto;
     overflow: hidden;
+    width: 800px;
 }
 
 .box{
-    width: 400px;
+    width:400px;
     float :left;
     text-align: left;
-    margin: 0 50px;
- }
+   }
 
 h2 {
   color :#b751bb;
   font-size :1.2em;
 }
 
-
-  /*  画面の横幅が999px以下の場合に適用 --------------------- */
-  @media screen and (max-width : 999px){
+/*  画面の横幅が999px以下の場合に適用 --------------------- */
+@media screen and (max-width : 999px){
   .contents{
     width: auto;
   }
 
-  .titleheader h1 {
-    position: absolute;/*絶対配置*/
-    top: 150px;
-    left: 5%;
-    font-size: 2em;
-    }
+  main{
+    width: 400px;
 }
+  .box{
+    float: none;
+  }
+}
+
+/*  画面の横幅が428px以下の場合に適用 --------------------- */
+@media screen and (max-width : 428px){
+    .titleheader{
+      margin: auto;
+      padding: auto;
+      width: 300px;
+    }    
+  }
