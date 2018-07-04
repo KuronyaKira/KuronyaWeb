@@ -89,6 +89,7 @@ h2 {
 @media screen and (max-width : 999px){
   .contents{
     width: auto;
+    font-size: 1.5em;
   }
 
   main{
@@ -97,6 +98,8 @@ h2 {
   .box{
     float: none;
   }
+
+
 }
 
 /*  画面の横幅が428px以下の場合に適用 --------------------- */
