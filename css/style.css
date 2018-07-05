@@ -89,7 +89,7 @@ h2 {
 @media screen and (max-width : 999px){
   .contents{
     width: auto;
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
   main{
