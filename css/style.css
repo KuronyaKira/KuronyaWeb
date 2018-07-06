@@ -86,7 +86,7 @@ h2 {
 }
 
 /*  画面の横幅が999px以下の場合に適用 --------------------- */
-@media screen and (max-width : 999px){
+/* @media screen and (max-width : 999px){
   .contents{
     width: auto;
     font-size: 2em;
@@ -100,13 +100,12 @@ h2 {
   }
 
 
-}
-
+} */
 /*  画面の横幅が428px以下の場合に適用 --------------------- */
-@media screen and (max-width : 428px){
+/* @media screen and (max-width : 428px){
     .titleheader{
       margin: auto;
       padding: auto;
       width: 300px;
     }    
-  }
+  } */
