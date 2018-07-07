@@ -57,28 +57,39 @@ header h1{
 }
 
 .titleimage img{
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
 }
 
 .sitetitle h1 a {
     color :#b751bb;
     text-decoration: none;
- }
+}
 
 
   /* メイン ------------------------------------------------ */
 main{
-    margin: 25px auto;
-    overflow: hidden;
-    width: 800px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  overflow: hidden;
 }
 
 .box{
-    width:400px;
-    float :left;
+    float:left;
     text-align: left;
    }
+
+.pagemain{
+  margin-left: 50px;
+  margin-right: 25px;
+  width: 400px;
+}
+
+.pagesub{
+  margin-left: 25px;
+  margin-right: 50px;
+  width: 400px;
+}
 
 h2 {
   color :#b751bb;
