@@ -4,6 +4,7 @@
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* ヘッダー ------------------------------------------------ */
@@ -31,6 +32,7 @@ header ul li a:hover{
 
 header h1{
   color:white;
+  font-family: 'Josefin Slab', serif;
 }
 
 .titleheader{
@@ -64,6 +66,7 @@ header h1{
 .sitetitle h1 a {
     color :#b751bb;
     text-decoration: none;
+    font-family: 'Josefin Slab', serif;
 }
 
 
@@ -91,32 +94,31 @@ main{
   width: 400px;
 }
 
+.pagesimple{
+  width: 800px;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.pagesimple img{
+  width: 200px;
+  float: right;
+}
+
+
 h2 {
   color :#b751bb;
   font-size :1.2em;
+  font-family: 'Josefin Slab', serif;
 }
 
-/*  画面の横幅が999px以下の場合に適用 --------------------- */
-/* @media screen and (max-width : 999px){
-  .contents{
-    width: auto;
-    font-size: 2em;
-  }
-
-  main{
-    width: 400px;
+main a{
+  color :#b751bb;
+  text-decoration: none;
 }
-  .box{
-    float: none;
-  }
 
-
-} */
-/*  画面の横幅が428px以下の場合に適用 --------------------- */
-/* @media screen and (max-width : 428px){
-    .titleheader{
-      margin: auto;
-      padding: auto;
-      width: 300px;
-    }    
-  } */
+main a:hover{
+  color: #a1d9ff;
+  text-decoration: underline;
+}
