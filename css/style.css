@@ -101,9 +101,16 @@ main{
   margin-left: auto;
 }
 
-.pagesimple img{
+.floatright{
   width: 200px;
   float: right;
+}
+
+.llart img{
+  width: 126px;
+  border: 1px solid #ffa7dd;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.32);
+  margin : 10px;
 }
 
 
