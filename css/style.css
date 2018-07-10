@@ -113,7 +113,6 @@ main{
   margin : 10px;
 }
 
-
 h2 {
   color :#b751bb;
   font-size :1.2em;
@@ -121,7 +120,7 @@ h2 {
 }
 
 h3 {
-  color :#ffa7dd;
+  color :#fa8fd1;
   font-size :1em;
   font-family: 'Josefin Slab', serif;
 }
@@ -130,6 +129,18 @@ h3:before {
 	content:' ♥';
 }
 
+.downloadbutton{
+    width:200px;
+    font-weight:bold;
+    text-decoration:none;
+    display:block;
+    text-align:center;
+    padding:8px 0 10px;
+    color:#fff;
+    background: linear-gradient(#ffa7dd,#d793ff);
+    border-radius:15px;
+    font-family: 'Josefin Slab', serif;
+}
 main a{
   color :#b751bb;
   text-decoration: none;
