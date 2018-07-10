@@ -120,6 +120,16 @@ h2 {
   font-family: 'Josefin Slab', serif;
 }
 
+h3 {
+  color :#ffa7dd;
+  font-size :1em;
+  font-family: 'Josefin Slab', serif;
+}
+
+h3:before {
+	content:' ♥';
+}
+
 main a{
   color :#b751bb;
   text-decoration: none;
