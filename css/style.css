@@ -201,6 +201,11 @@ h3:before {
   text-decoration: underline;
 }
 
+.filter p{
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
 .filter p:before{
   content:' ♥';
 
