@@ -148,6 +148,8 @@ h3:before {
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.32);
   margin-left: auto;
   margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 50px;
   background-color: white;
 }
 .nikkidate{
@@ -180,6 +182,27 @@ h3:before {
 
   text-decoration:underline;
   text-decoration-color:#949494;
+
+}
+
+.filter li{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.filter li{
+  color: #b751bb;
+  text-decoration: none;
+}
+
+.filter li:hover{
+  color: #a1d9ff;
+  text-decoration: underline;
+}
+
+.filter p:before{
+  content:' ♥';
 
 }
 
