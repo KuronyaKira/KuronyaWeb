@@ -52,6 +52,11 @@ $(".numazubtn").click(function () {
   $(".numazu").show();
 });
 
+$(".yoshikobtn").click(function () {
+  $(".nikki").hide();
+  $(".yoshiko").show();
+});
+
 $(".allbtn").click(function () {
   $(".nikki").show();
 });
