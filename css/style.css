@@ -250,3 +250,8 @@ main a:hover{
   color:#a1d9ff;
   text-decoration: underline;
 }
+
+.socialicon:hover{
+  position:relative;
+  top:2px;
+}
