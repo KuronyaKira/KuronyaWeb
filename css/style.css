@@ -18,6 +18,8 @@ header ul li{
   display: inline-block;
   margin-left: 10px;
   margin-right: 10px;
+  font-family: 'Sniglet', cursive;
+  font-size: 1.1em;
 }
 
 header ul li a{
@@ -139,7 +141,7 @@ h3:before {
     color:#fff;
     background: linear-gradient(#ffa7dd,#d793ff);
     border-radius:15px;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Sniglet', cursive;
 }
 
 .nikki{
@@ -243,7 +245,7 @@ main a:hover{
     color:#fff;
     background: linear-gradient(#ffa7dd,#d793ff);
     border-radius:15px;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Sniglet', cursive;
 }
 
 .sendbtn:hover{
