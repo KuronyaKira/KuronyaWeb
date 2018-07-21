@@ -2,7 +2,7 @@ main {
     width: 700px;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 footer {
@@ -11,6 +11,7 @@ footer {
 
 h1 {
     color: #913369;
+    font-family: 'Josefin Slab', serif;
 }
 
 canvas {
