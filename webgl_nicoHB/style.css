@@ -1,0 +1,43 @@
+main {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Josefin Slab', serif;
+}
+
+footer {
+    text-align: center;
+}
+
+h1 {
+    color: #913369;
+}
+
+canvas {
+    background-image: url("patter.png")
+}
+
+button {
+    display: inline-block;
+    padding: 0.3em 1em;
+    color: #ffb3ff;
+    border: solid 2px #ffb3ff;
+    border-radius: 3px;
+    transition: .4s;
+    background-color: #ffffff;
+    font-size: 1.5em;
+}
+
+button:hover {
+    background: #ffb3ff;
+    color: white;
+}
+
+div {
+    margin: 10px;
+}
+
+.right {
+    float: right;
+    margin-right: 100px;
+}
